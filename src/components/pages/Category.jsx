@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { getFilterCategory } from "../../api";
 
@@ -13,9 +13,7 @@ function Category() {
     getFilterCategory(name).then((data) => setMeals(data.meals));
   }, [name]);
 
-  return <>
-    {!meals.length ? <Preloader /> : <MealList meals={meals} />}
-    </>;
+  return <>{!meals.length ? <Preloader /> : <MealList meals={meals} />}</>;
 }
 
 export { Category };
