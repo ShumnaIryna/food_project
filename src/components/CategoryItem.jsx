@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 
 function CategotyItem(props) {
-  const { idCategory, strCategory, strCategoryThumb, strCategoryDescription } =
-    props;
+  const {
+    // idCategory,
+    strCategory,
+    strCategoryThumb,
+    strCategoryDescription,
+  } = props;
 
   return (
     <div className="card">
