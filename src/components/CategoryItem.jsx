@@ -9,7 +9,9 @@ function CategotyItem(props) {
   } = props;
 
   return (
-    <div className="card">
+    <div
+      className="card hover"
+    >
       <div className="card-image">
         <img src={strCategoryThumb} alt={strCategory} />
       </div>

@@ -22,6 +22,10 @@ nav {
   gap: 1rem;
 }
 
+.card.hover:hover {
+  box-shadow: 5px 2px 5px #b39ddb;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -31,7 +35,8 @@ nav {
   flex-grow: 1;
 }
 
-.img, iframe {
+.img,
+iframe {
   max-width: 100%;
 }
 

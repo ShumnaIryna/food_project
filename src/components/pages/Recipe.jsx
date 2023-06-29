@@ -64,7 +64,7 @@ function Recipe() {
           ) : null}
         </div>
       )}
-      <button className="btn #546e7a blue-grey darken-1" onClick={goBack}>
+      <button className="btn #546e7a blue-grey darken-1" style={{marginTop: '1rem'}} onClick={goBack}>
         Go Back
       </button>
     </>
