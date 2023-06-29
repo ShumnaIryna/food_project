@@ -16,7 +16,7 @@ function Search({ cb = Function.prototype }) {
   return (
     <div className="row">
       <div className="input-field col s12"></div>
-      <input
+      <input className="borderSearch"
         type="search"
         id="search-field"
         placeholder="search"

@@ -5,7 +5,8 @@ function Header() {
     <nav className="#b39ddb deep-purple lighten-3">
       <div className="nav-wrapper">
         <Link to="/" className="brand-logo">
-          React Shop
+        {/* TheMealDB */}
+        <img className="logo" src="../logo_meal.png" alt="logo" />
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>

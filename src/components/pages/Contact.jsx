@@ -1,5 +1,5 @@
 function Contact() {
-  return <h1>Heello from CONTACT page</h1>;
+  return <h4>Contact Email: thedatasdb@gmail.com</h4>;
 }
 
 export { Contact };
