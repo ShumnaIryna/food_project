@@ -14,7 +14,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/food_project" >
         <Header />
         <main className="container content">
           <Switch>
