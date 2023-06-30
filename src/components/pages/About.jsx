@@ -1,4 +1,8 @@
+import { useHistory } from "react-router-dom";
+
 function About() {
+  const { goBack } = useHistory();
+
   return (
     <>
       <h4>The best home cooking recipes</h4>
@@ -63,6 +67,10 @@ function About() {
         any supermarket, so there is no need to search for them or specially
         order them.
       </p>
+
+      <button className="btn #546e7a blue-grey darken-1" onClick={goBack}>
+        Go Back
+      </button>
     </>
   );
 }
